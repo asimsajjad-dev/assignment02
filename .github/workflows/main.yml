@@ -37,7 +37,7 @@ jobs:
     - uses: Borales/actions-yarn@v2.3.0
       with:
         cmd: build
-    - name: Deploy to foo-bar.surge.sh
+    - name: Deploy to asimwork02.surge.sh
       uses: dswistowski/surge-sh-action@v1
       with:
           domain: 'asimwork02.surge.sh'
